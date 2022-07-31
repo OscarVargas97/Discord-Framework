@@ -1,10 +1,10 @@
 from discord.ext import commands
-from .cody import Cody
-from .cap import Cap
+from .pong_example import PongCommands
+from .ping_example import PingCommands
 
 def setup(bot: commands.Bot):
-    bot.add_cog(Cody(bot))
-    bot.add_cog(Cap(bot))
+    bot.add_cog(PongCommands(bot))
+    bot.add_cog(PingCommands(bot))
     
 
 

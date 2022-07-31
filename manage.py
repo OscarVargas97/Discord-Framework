@@ -11,6 +11,8 @@ def main():
   
   load_dotenv()
   
+
+
   allcommand.chargecogs(bot)
   allcommand.load(bot)
 

@@ -3,11 +3,18 @@ Because I didn't find any scalable Discord template, I decided to come up with s
 
 ## Quick start
 
+```console
+$ https://github.com/OscarVargas97/Discord-Framework.git
+$ cd Discord-Framework
+$ pip install -r requirements.txt
+$ python manage.py
 
-## P
+```
 
+## Future features
+ - Docker
 
-
+## Documentation
 ## License
 
 DISCORD FRAMEWORK is licensed under the [BSD Simplified license](LICENSE.md)

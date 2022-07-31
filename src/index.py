@@ -1,12 +1,8 @@
 from discord.ext import commands
-from .Example_module import index as drive
+from .ready import Ready
 #from Channel import index as channel
 
-def load(bot):
-    @bot.event
-    async def on_ready():
-        print(f"{bot.user.name} has connected to Discord.")
-
 def chargecogs(bot):
-    bot.load_extension("src.Drive.index")
+    bot.add_cog(Ready(bot))
+    bot.load_extension(".Example_module.index")
 
