@@ -1,0 +1,6 @@
+#Discord bot token
+TOKEN=""
+
+#Configuraciones
+PREFIX="$"
+DESCRIPTION="HI"
