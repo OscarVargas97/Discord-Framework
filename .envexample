@@ -1,4 +1,6 @@
-#Rename this file to .env
-
 #Discord bot token
 TOKEN=""
+
+#Configuraciones
+PREFIX="$"
+DESCRIPTION="HI"

@@ -1,5 +1,5 @@
 *.lock
 Pipfile
 .env
-.pyc
+*.pyc
 _pycache_

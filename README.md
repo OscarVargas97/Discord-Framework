@@ -7,12 +7,12 @@ Because I didn't find any scalable Discord template, I decided to come up with s
 $ https://github.com/OscarVargas97/Discord-Framework.git
 $ cd Discord-Framework
 $ pip install -r requirements.txt
+$ mv .envexample .env
 $ python manage.py
-
 ```
-
 ## Future features
  - Docker
+ - MySql Integration
 
 ## Documentation
 ## License
